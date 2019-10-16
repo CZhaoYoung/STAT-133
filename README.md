@@ -2,11 +2,11 @@
 
 Private Repository for Workout assignments
 
-- Name: Your name (first last)
-- Github username: usrname
-- Email: address [at] email.com
-- Lab section: 101
-- GSI: Leia Organa
+- Name: Your name (Zhaoyang Chen)
+- Github username: CZhaoYoung
+- Email: chaoyoung123@berkeley.edu
+- Lab section: 104
+- GSI: Sargam Jain
 
 -----
 
