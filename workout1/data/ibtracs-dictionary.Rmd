@@ -1,0 +1,50 @@
+---
+title: "ibtracs-dictionary"
+author: "Zhaoyang Chen"
+date: "10/15/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data dictionary
+
+| Name           | Data Type  | Description                   |
+|----------------|------------|-------------------------------|
+| Serial_Num		 | character  | Serial Number Format          |
+| Season		     | continuous | The year when storm happened  |
+| Num	           | continuous | Number of the certain strom   |
+| Basin		       | continuous | Basin Boundaries              |
+| Sub_basin	     | continuous | Subbasin Boundaries           |
+
+More detailed description  
+Serial_Num: YYYYJJJHTTNNN
+```
+YYYY is the corresponding year of the first recorded observation of the storm  
+JJJ is the day of year of the first recorded observation of the storm  
+H is the hemisphere of the storm: N=Northern, S=Southern  
+TT is the absolute value of the rounded latitude of the first recorded observation of the storm (range 0-90, if basin=SA or SH, then TT in reality is negative)  
+NNN is the rounded longitude of the first recorded observation of the storm (range 0-359)
+```
+
+Basin:
+```
+Basin boundaries are generally on longitude boundaries.
+Southern Hemisphere basins (latitude < 0°)
+
+SI = 	South Indian 		  10° < Longitude < 135°
+SP = 	South Pacific		135° < Longitude < 290°
+SA =	South Atlantic		 -70° < Longitude <   10°
+
+Northern Hemisphere basins (latitude > 0)
+Two basins are defined solely by longitude:
+
+NI = 	North Indian		  30° < Longitude < 100°
+WP =	Western Pacific 	100° < Longitude < 180°
+```
+
+Sub_basin	:
+```
+```

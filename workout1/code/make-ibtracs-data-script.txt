@@ -1,0 +1,47 @@
+# Section 2.1
+# download the raw data
+curl -O ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r10/all/csv/year/Year.2010.ibtracs_all.v03r10.csv
+curl -O ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r10/all/csv/year/Year.2011.ibtracs_all.v03r10.csv
+curl -O ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r10/all/csv/year/Year.2012.ibtracs_all.v03r10.csv
+curl -O ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r10/all/csv/year/Year.2013.ibtracs_all.v03r10.csv
+curl -O ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r10/all/csv/year/Year.2014.ibtracs_all.v03r10.csv
+curl -O ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r10/all/csv/year/Year.2015.ibtracs_all.v03r10.csv
+
+
+# Section2.2
+# select lines from 2 to 8, including the name of the fields 
+cut -f -1-12 -d "," Year.2010.ibtracs_all.v03r10.csv | head -n 8 | tail -7 > ibtracs-2010-2015.csv
+cut -f -1,2,3,4,5 -d "," Year.2010.ibtracs_all.v03r10.csv | tail -5 >> ibtracs-2010-2015.csv
+
+# select first 5 lines, the lines from 4 to 8 in the raw data 
+# select last five lines in the raw data
+cut -f -1,2,3,4,5 -d "," Year.2011.ibtracs_all.v03r10.csv | head -n 8 | tail -5  >> ibtracs-2010-2015.csv
+cut -f -1,2,3,4,5 -d "," Year.2011.ibtracs_all.v03r10.csv | tail -5 >> ibtracs-2010-2015.csv
+cut -f -1,2,3,4,5 -d "," Year.2012.ibtracs_all.v03r10.csv | head -n 8 | tail -5  >> ibtracs-2010-2015.csv
+cut -f -1,2,3,4,5 -d "," Year.2012.ibtracs_all.v03r10.csv | tail -5 >> ibtracs-2010-2015.csv
+cut -f -1,2,3,4,5 -d "," Year.2013.ibtracs_all.v03r10.csv | head -n 8 | tail -5  >> ibtracs-2010-2015.csv
+cut -f -1,2,3,4,5 -d "," Year.2013.ibtracs_all.v03r10.csv | tail -5 >> ibtracs-2010-2015.csv
+cut -f -1,2,3,4,5 -d "," Year.2014.ibtracs_all.v03r10.csv | head -n 8 | tail -5  >> ibtracs-2010-2015.csv
+cut -f -1,2,3,4,5 -d "," Year.2014.ibtracs_all.v03r10.csv | tail -5 >> ibtracs-2010-2015.csv
+cut -f -1,2,3,4,5 -d "," Year.2015.ibtracs_all.v03r10.csv | head -n 8 | tail -5  >> ibtracs-2010-2015.csv
+cut -f -1,2,3,4,5 -d "," Year.2015.ibtracs_all.v03r10.csv | tail -5 >> ibtracs-2010-2015.csv
+
+# delete the line "N/A,Year"
+grep -v "N/A,Year" ibtracs-2010-2015.csv > temp.csv
+rm ibtracs-2010-2015.csv
+mv temp.csv ibtracs-2010-2015.csv
+
+
+# Section 3
+# 3.1
+# select first column and skip first two rows 
+cut -f 1 -d "," ibtracs-2010-2015.csv | tail -n +3 |uniq > ../output/serial-numbers.txt
+
+# 3.2
+cut -f 2 -d "," ibtracs-2010-2015.csv | tail -n +3 | sort -n |uniq -c > ../output/records-per-year.txt
+
+# 3.3
+cut -f 4 -d "," ibtracs-2010-2015.csv | tail -n +3 | sort -n |uniq -c > ../output/basin-frequencies.txt
+
+# 3.4
+cut -f 5 -d "," ibtracs-2010-2015.csv | tail -n +3 | sort -n |uniq -c > ../output/sub-basin-frequencies.txt
