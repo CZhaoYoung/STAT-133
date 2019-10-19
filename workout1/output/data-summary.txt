@@ -1,0 +1,24 @@
+  Serial_Num            Season         Num               Basin          
+ Length:60          Min.   :2010   Length:60          Length:60         
+ Class :character   1st Qu.:2011   Class :character   Class :character  
+ Mode  :character   Median :2012   Mode  :character   Mode  :character  
+                    Mean   :2012                                        
+                    3rd Qu.:2014                                        
+                    Max.   :2015                                        
+                                                                        
+  Sub_basin             Name             ISO_time            Nature         
+ Length:60          Length:60          Length:60          Length:60         
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+    Latitude         Longitude         Wind.WMO.       Pres.WMO.   
+ Min.   :-12.500   Min.   :-176.90   Min.   :15.00   Min.   : 969  
+ 1st Qu.: -7.350   1st Qu.:  67.53   1st Qu.:20.00   1st Qu.:1002  
+ Median :  2.200   Median :  77.55   Median :25.00   Median :1004  
+ Mean   :  3.117   Mean   :  38.16   Mean   :27.23   Mean   :1002  
+ 3rd Qu.: 10.375   3rd Qu.:  97.30   3rd Qu.:29.00   3rd Qu.:1006  
+ Max.   : 34.100   Max.   : 120.40   Max.   :75.00   Max.   :1009  
+ NA's   :6         NA's   :6         NA's   :21      NA's   :6     
