@@ -1,11 +1,6 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
+
+# Workout2, Stat 133 Fall 2019, Zhaoyang Chen
+# Shiny App to simulate three investing scenarios
 
 library(shiny)
 library(ggplot2)
