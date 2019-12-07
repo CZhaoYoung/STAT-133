@@ -1,0 +1,708 @@
+
+
+Sat Oct 19 00:21:07 2019
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 5.0.0-31-generic (#33~18.04.1-Ubuntu SMP Tue Oct 1 10:20:39 UTC 2019) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 21 GB / 20 GiB - CHS 2610 255 63, sector size=512 - VMware, VMware Virtual S, FW:1.0
+
+
+TestDisk exited normally.
+
+
+Sat Oct 19 00:21:13 2019
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 5.0.0-31-generic (#33~18.04.1-Ubuntu SMP Tue Oct 1 10:20:39 UTC 2019) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+
+
+Sat Oct 19 00:21:14 2019
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 5.0.0-31-generic (#33~18.04.1-Ubuntu SMP Tue Oct 1 10:20:39 UTC 2019) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 21 GB / 20 GiB - CHS 2610 255 63, sector size=512 - VMware, VMware Virtual S, FW:1.0
+
+Partition table type (auto): Intel
+Disk /dev/sda - 21 GB / 20 GiB - VMware, VMware Virtual S
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/159, s_mnt_count=67/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 5242368
+recover_EXT2: part_size 41938944
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+block_group_nr 1
+
+recover_EXT2: "e2fsck -b 32768 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=1/159, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 5242368
+recover_EXT2: part_size 41938944
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+block_group_nr 3
+
+recover_EXT2: "e2fsck -b 98304 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=3/159, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 5242368
+recover_EXT2: part_size 41938944
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+block_group_nr 5
+
+recover_EXT2: "e2fsck -b 163840 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=5/159, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 5242368
+recover_EXT2: part_size 41938944
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+block_group_nr 7
+
+recover_EXT2: "e2fsck -b 229376 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=7/159, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 5242368
+recover_EXT2: part_size 41938944
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+block_group_nr 9
+
+recover_EXT2: "e2fsck -b 294912 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=9/159, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 5242368
+recover_EXT2: part_size 41938944
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+block_group_nr 25
+
+recover_EXT2: "e2fsck -b 819200 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=25/159, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 5242368
+recover_EXT2: part_size 41938944
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+block_group_nr 27
+
+recover_EXT2: "e2fsck -b 884736 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=27/159, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 5242368
+recover_EXT2: part_size 41938944
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+block_group_nr 49
+
+recover_EXT2: "e2fsck -b 1605632 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=49/159, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 5242368
+recover_EXT2: part_size 41938944
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+block_group_nr 81
+
+recover_EXT2: "e2fsck -b 2654208 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=81/159, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 5242368
+recover_EXT2: part_size 41938944
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                    0  32 33  2610 180  2   41938944
+superblock 0, blocksize=4096 []
+superblock 32768, blocksize=4096 []
+superblock 98304, blocksize=4096 []
+superblock 163840, blocksize=4096 []
+superblock 229376, blocksize=4096 []
+superblock 294912, blocksize=4096 []
+superblock 819200, blocksize=4096 []
+superblock 884736, blocksize=4096 []
+superblock 1605632, blocksize=4096 []
+superblock 2654208, blocksize=4096 []
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+
+
+dir_partition inode=2
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096  6-Oct-2019 20:31 .
+       2 drwxr-xr-x     0      0      4096  6-Oct-2019 20:31 ..
+      11 drwx------     0      0     16384  6-Sep-2019 11:45 lost+found
+      12 -rw-------     0      0 993244160  6-Sep-2019 11:45 swapfile
+ 1048577 drwxr-xr-x     0      0     12288 17-Oct-2019 15:21 etc
+  786433 drwxr-xr-x     0      0      4096  5-Aug-2019 11:58 media
+  131073 drwxr-xr-x     0      0      4096 15-Sep-2019 16:48 bin
+  262145 drwxr-xr-x     0      0      4096  7-Oct-2019 09:17 boot
+ 1179649 drwxr-xr-x     0      0      4096  5-Aug-2019 11:58 dev
+  393217 drwxr-xr-x     0      0      4096  6-Sep-2019 11:52 home
+  655361 drwxr-xr-x     0      0      4096  6-Sep-2019 13:23 lib
+  917505 drwxr-xr-x     0      0      4096  5-Aug-2019 11:58 lib64
+  655362 drwxr-xr-x     0      0      4096  5-Aug-2019 11:58 mnt
+  131074 drwxr-xr-x     0      0      4096  6-Sep-2019 11:58 opt
+  917506 drwxr-xr-x     0      0      4096 24-Apr-2018 01:34 proc
+ 1048579 drwx------     0      0      4096  6-Oct-2019 22:19 root
+ 1179650 drwxr-xr-x     0      0      4096  6-Sep-2019 11:52 run
+  262146 drwxr-xr-x     0      0     12288  1-Oct-2019 00:22 sbin
+  393218 drwxr-xr-x     0      0      4096 23-Sep-2019 09:43 snap
+ 1179651 drwxr-xr-x     0      0      4096  5-Aug-2019 11:58 srv
+  262147 drwxr-xr-x     0      0      4096 24-Apr-2018 01:34 sys
+  131075 drwxrwxrwt     0      0      4096 19-Oct-2019 00:19 tmp
+  393219 drwxr-xr-x     0      0      4096  6-Sep-2019 13:23 usr
+  655363 drwxr-xr-x     0      0      4096  5-Aug-2019 12:11 var
+      16 lrwxrwxrwx     0      0        29  6-Oct-2019 20:31 vmlinuz
+      15 lrwxrwxrwx     0      0        32  6-Oct-2019 20:31 initrd.img.old
+      14 lrwxrwxrwx     0      0        32  6-Oct-2019 20:31 initrd.img
+  262327 drwxr-xr-x     0      0      4096  6-Sep-2019 13:23 lib32
+  265237 drwxrwxr-x     0      0      4096  6-Sep-2019 11:50 cdrom
+X     14 lrwxrwxrwx     0      0        32  6-Oct-2019 20:31 initrd.img.802796
+      13 lrwxrwxrwx     0      0        29  6-Oct-2019 20:31 vmlinuz.old
+X     15 lrwxrwxrwx     0      0        32  6-Oct-2019 20:31 initrd.img.old.851643
+
+dir_partition inode=393217
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home
+  393217 drwxr-xr-x     0      0      4096  6-Sep-2019 11:52 .
+       2 drwxr-xr-x     0      0      4096  6-Oct-2019 20:31 ..
+  415807 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:07 chaoyoung
+
+dir_partition inode=415807
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung
+  415807 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:07 .
+  393217 drwxr-xr-x     0      0      4096  6-Sep-2019 11:52 ..
+  415813 -rw-r--r--  1000   1000      8980  6-Sep-2019 11:52 examples.desktop
+  396615 -rw-r--r--  1000   1000      3768  9-Oct-2019 16:36 .bashrc
+  415815 -rw-r--r--  1000   1000       220  6-Sep-2019 11:52 .bash_logout
+  415816 -rw-r--r--  1000   1000       807  6-Sep-2019 11:52 .profile
+  400776 drwx------  1000   1000      4096  6-Sep-2019 12:16 .gnupg
+  400779 drwx------  1000   1000      4096 15-Oct-2019 11:35 .cache
+  400780 drwx------  1000   1000      4096  6-Sep-2019 11:58 .local
+  400788 drwx------  1000   1000      4096 18-Oct-2019 23:58 .config
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 Desktop
+  400844 drwxr-xr-x  1000   1000      4096  6-Sep-2019 11:58 Public
+  400785 -rw-------  1000   1000     18762 18-Oct-2019 23:50 .ICEauthority
+  400842 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:26 Downloads
+  400843 drwxr-xr-x  1000   1000      4096  6-Sep-2019 11:58 Templates
+  400845 drwxr-xr-x  1000   1000      4096  6-Sep-2019 11:58 Documents
+  400846 drwxr-xr-x  1000   1000      4096  6-Sep-2019 11:58 Music
+  400847 drwxr-xr-x  1000   1000      4096 23-Sep-2019 09:56 Pictures
+  400848 drwxr-xr-x  1000   1000      4096  6-Sep-2019 11:58 Videos
+  400951 drwx------  1000   1000      4096  6-Sep-2019 12:01 .mozilla
+  401431 drwxr-xr-x  1000   1000      4096  1-Oct-2019 13:59 snap
+  401439 drwx------  1000   1000      4096  6-Sep-2019 12:13 .thunderbird
+X 415848 drwx------  1000   1000      4096 17-Oct-2019 11:32 .ssh
+  401180 -rw-r--r--  1000   1000         0  6-Sep-2019 12:33 .sudo_as_admin_successful
+  401175 drwx------     0      0      4096  6-Sep-2019 12:37 .dbus
+  401196 drwx------     0      0      4096  6-Sep-2019 12:37 .gvfs
+  540798 drwxrwxr-x  1000   1000      4096 19-Oct-2019 00:17 .rstudio-desktop
+  420585 -rw-------  1000   1000     38250 19-Oct-2019 00:18 .bash_history
+  416120 drwxrwxr-x  1000   1000      4096  6-Sep-2019 13:51 R
+  424272 drwxr-xr-x  1000   1000      4096  6-Sep-2019 15:26 .gem
+  424498 -rw-rw-r--  1000   1000     21859 19-Oct-2019 00:05 .Rhistory
+  661398 drwxr-xr-x  1000   1000      4096 10-Oct-2019 21:14 dash-to-dock
+  444288 -rw-rw-r--  1000   1000      4605 18-Oct-2019 00:11 .RData
+  527532 drwxrwxr-x  1000   1000      4096 20-Sep-2019 15:52 stat133-lab03
+  427870 -rw-r--r--  1000   1000        83  4-Oct-2019 09:49 .gitconfig
+  434800 -rw-------  1000   1000     11354 17-Oct-2019 20:15 .viminfo
+  428143 -rw-r--r--  1000   1000         0  4-Oct-2019 14:21 experience-counts.txt
+  396544 -rw-r--r--  1000   1000      3771  9-Oct-2019 16:22 .bashrc_backup
+  448070 -rw-r--r--  1000   1000     45253 19-Oct-2019 00:18 testdisk.log
+X 394494 -rw-------  1000   1000    262144 18-Oct-2019 23:50 .ICEauthority-l
+
+dir_partition inode=400841
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 .
+  415807 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:07 ..
+  661016 drwxr-xr-x  1000   1000      4096  7-Oct-2019 19:51 Ex_1
+  678716 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:02 workout1
+  941864 drwxr-xr-x  1000   1000      4096  4-Oct-2019 11:31 concepts_of_computing_data
+  466945 drwxrwxr-x  1000   1000      4096 17-Sep-2019 20:50 CS 170
+  532421 -rw-rw-r--  1000   1000    978008 26-Sep-2019 18:03 ggplot2-cheatsheet-2.1.pdf
+  412013 -rw-r--r--  1000   1000       260 27-Sep-2019 09:54 Stat_133_note
+  396493 -rw-------  1000   1000    466732  6-Oct-2019 20:16 midterm-study-guide-solutions.pdf
+  474754 -rw-------  1000   1000    432057  6-Oct-2019 20:16 midterm-study-guide-questions.pdf
+  394787 -rw-------  1000   1000    195554 15-Oct-2019 11:28 workout01.pdf
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 workouts
+  441880 -rw-r--r--  1000   1000       322 17-Oct-2019 14:15 note
+  668587 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 temp
+X 435083 -rw-------  1000   1000     13793 17-Oct-2019 00:14 note~
+  396704 -rwxrw-rw-  1000   1000  72026251  7-Oct-2019 19:36 Modern Data Science With R .pdf
+
+dir_partition inode=678716
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workout1
+  678716 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:02 .
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 ..
+  681012 drwxr-xr-x  1000   1000      4096 17-Oct-2019 20:15 code
+  681020 drwxr-xr-x  1000   1000      4096 16-Oct-2019 23:55 data
+  681111 drwxr-xr-x  1000   1000      4096 17-Oct-2019 22:09 images
+  681118 drwxr-xr-x  1000   1000      4096 17-Oct-2019 12:01 output
+  681124 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:31 report
+  681615 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  681617 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:02 .git
+
+dir_partition inode=681012
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workout1/code
+  681012 drwxr-xr-x  1000   1000      4096 17-Oct-2019 20:15 .
+  678716 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:02 ..
+  681014 -rw-r--r--  1000   1000      2578 17-Oct-2019 14:16 make-ibtracs-data-script.txt
+  681015 -rw-r--r--  1000   1000      1311 19-Oct-2019 00:18 eda-script.R
+  681019 -rw-r--r--  1000   1000     12288 16-Oct-2019 15:51 .make-ibtracs-data-script.txt.swp
+X 681021 -rw-r--r--  1000   1000      5483 16-Oct-2019 23:55 map-ep-na-storms-by-year.pdf
+X 681046 -rw-r--r--  1000   1000   4145513 16-Oct-2019 15:51 map-ep-na-storms-by-year.png
+Directory /home/chaoyoung/Desktop/workout1
+  678716 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:02 .
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 ..
+  681012 drwxr-xr-x  1000   1000      4096 17-Oct-2019 20:15 code
+  681020 drwxr-xr-x  1000   1000      4096 16-Oct-2019 23:55 data
+  681111 drwxr-xr-x  1000   1000      4096 17-Oct-2019 22:09 images
+  681118 drwxr-xr-x  1000   1000      4096 17-Oct-2019 12:01 output
+  681124 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:31 report
+  681615 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  681617 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:02 .git
+Directory /home/chaoyoung/Desktop
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 .
+  415807 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:07 ..
+  661016 drwxr-xr-x  1000   1000      4096  7-Oct-2019 19:51 Ex_1
+  678716 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:02 workout1
+  941864 drwxr-xr-x  1000   1000      4096  4-Oct-2019 11:31 concepts_of_computing_data
+  466945 drwxrwxr-x  1000   1000      4096 17-Sep-2019 20:50 CS 170
+  532421 -rw-rw-r--  1000   1000    978008 26-Sep-2019 18:03 ggplot2-cheatsheet-2.1.pdf
+  412013 -rw-r--r--  1000   1000       260 27-Sep-2019 09:54 Stat_133_note
+  396493 -rw-------  1000   1000    466732  6-Oct-2019 20:16 midterm-study-guide-solutions.pdf
+  474754 -rw-------  1000   1000    432057  6-Oct-2019 20:16 midterm-study-guide-questions.pdf
+  394787 -rw-------  1000   1000    195554 15-Oct-2019 11:28 workout01.pdf
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 workouts
+  441880 -rw-r--r--  1000   1000       322 17-Oct-2019 14:15 note
+  668587 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 temp
+X 435083 -rw-------  1000   1000     13793 17-Oct-2019 00:14 note~
+  396704 -rwxrw-rw-  1000   1000  72026251  7-Oct-2019 19:36 Modern Data Science With R .pdf
+
+dir_partition inode=668587
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/temp
+  668587 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 .
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 ..
+  680934 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  670303 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 data
+  670304 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 code
+  786525 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 output
+  786526 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 images
+  786527 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 report
+  936497 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:09 .git
+  415848 drwx------  1000   1000      4096 17-Oct-2019 11:32 .ssh
+X 680934 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 .goutputstream-2XGU9Z
+
+dir_partition inode=670304
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/temp/code
+  670304 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 .
+  668587 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 ..
+  681929 -rw-r--r--  1000   1000      2578 17-Oct-2019 14:16 make-ibtracs-data-script.txt
+  661003 -rw-r--r--  1000   1000     12288 16-Oct-2019 15:51 .make-ibtracs-data-script.txt.swp
+  680920 -rw-r--r--  1000   1000      1311 16-Oct-2019 15:51 eda-script.R
+X 661003 -rw-r--r--  1000   1000     12288 16-Oct-2019 15:51 .goutputstream-WF109Z
+Directory /home/chaoyoung/Desktop/temp
+  668587 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 .
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 ..
+  680934 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  670303 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 data
+  670304 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 code
+  786525 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 output
+  786526 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 images
+  786527 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 report
+  936497 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:09 .git
+  415848 drwx------  1000   1000      4096 17-Oct-2019 11:32 .ssh
+X 680934 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 .goutputstream-2XGU9Z
+Directory /home/chaoyoung/Desktop
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 .
+  415807 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:07 ..
+  661016 drwxr-xr-x  1000   1000      4096  7-Oct-2019 19:51 Ex_1
+  678716 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:02 workout1
+  941864 drwxr-xr-x  1000   1000      4096  4-Oct-2019 11:31 concepts_of_computing_data
+  466945 drwxrwxr-x  1000   1000      4096 17-Sep-2019 20:50 CS 170
+  532421 -rw-rw-r--  1000   1000    978008 26-Sep-2019 18:03 ggplot2-cheatsheet-2.1.pdf
+  412013 -rw-r--r--  1000   1000       260 27-Sep-2019 09:54 Stat_133_note
+  396493 -rw-------  1000   1000    466732  6-Oct-2019 20:16 midterm-study-guide-solutions.pdf
+  474754 -rw-------  1000   1000    432057  6-Oct-2019 20:16 midterm-study-guide-questions.pdf
+  394787 -rw-------  1000   1000    195554 15-Oct-2019 11:28 workout01.pdf
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 workouts
+  441880 -rw-r--r--  1000   1000       322 17-Oct-2019 14:15 note
+  668587 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 temp
+X 435083 -rw-------  1000   1000     13793 17-Oct-2019 00:14 note~
+  396704 -rwxrw-rw-  1000   1000  72026251  7-Oct-2019 19:36 Modern Data Science With R .pdf
+
+dir_partition inode=661892
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 .
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 ..
+  668842 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:37 .git
+  680904 -rw-r--r--  1000   1000       293 16-Oct-2019 15:49 README.md
+  801799 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:49 demo
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 workout1
+
+dir_partition inode=936665
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 .
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 ..
+  936666 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:34 data
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 code
+  936682 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  936683 drwxr-xr-x  1000   1000      4096 17-Oct-2019 12:01 output
+  936688 drwxr-xr-x  1000   1000      4096 17-Oct-2019 22:09 images
+  936689 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:15 report
+  936690 drwxr-xr-x  1000   1000      4096 17-Oct-2019 00:12 .git
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 home
+
+dir_partition inode=936678
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1/code
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 .
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 ..
+  936679 -rw-r--r--  1000   1000      1315 19-Oct-2019 00:00 eda-script.R
+  936680 -rw-r--r--  1000   1000     12288 16-Oct-2019 15:51 .make-ibtracs-data-script.txt.swp
+  936561 -rw-r--r--  1000   1000      2578 17-Oct-2019 14:16 make-ibtracs-data-script.txt
+  940450 -rw-r--r--  1000   1000      8192 19-Oct-2019 00:21 testdisk.log
+X 940364 -rw-r--r--     0      0      3487 17-Oct-2019 20:18 .eda-script.R.swx
+Directory /home/chaoyoung/Desktop/workouts/workout1
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 .
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 ..
+  936666 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:34 data
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 code
+  936682 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  936683 drwxr-xr-x  1000   1000      4096 17-Oct-2019 12:01 output
+  936688 drwxr-xr-x  1000   1000      4096 17-Oct-2019 22:09 images
+  936689 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:15 report
+  936690 drwxr-xr-x  1000   1000      4096 17-Oct-2019 00:12 .git
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 home
+Directory /home/chaoyoung/Desktop/workouts
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 .
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 ..
+  668842 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:37 .git
+  680904 -rw-r--r--  1000   1000       293 16-Oct-2019 15:49 README.md
+  801799 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:49 demo
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 workout1
+Directory /home/chaoyoung/Desktop
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 .
+  415807 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:07 ..
+  661016 drwxr-xr-x  1000   1000      4096  7-Oct-2019 19:51 Ex_1
+  678716 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:02 workout1
+  941864 drwxr-xr-x  1000   1000      4096  4-Oct-2019 11:31 concepts_of_computing_data
+  466945 drwxrwxr-x  1000   1000      4096 17-Sep-2019 20:50 CS 170
+  532421 -rw-rw-r--  1000   1000    978008 26-Sep-2019 18:03 ggplot2-cheatsheet-2.1.pdf
+  412013 -rw-r--r--  1000   1000       260 27-Sep-2019 09:54 Stat_133_note
+  396493 -rw-------  1000   1000    466732  6-Oct-2019 20:16 midterm-study-guide-solutions.pdf
+  474754 -rw-------  1000   1000    432057  6-Oct-2019 20:16 midterm-study-guide-questions.pdf
+  394787 -rw-------  1000   1000    195554 15-Oct-2019 11:28 workout01.pdf
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 workouts
+  441880 -rw-r--r--  1000   1000       322 17-Oct-2019 14:15 note
+  668587 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 temp
+X 435083 -rw-------  1000   1000     13793 17-Oct-2019 00:14 note~
+  396704 -rwxrw-rw-  1000   1000  72026251  7-Oct-2019 19:36 Modern Data Science With R .pdf
+Directory /home/chaoyoung
+  415807 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:07 .
+  393217 drwxr-xr-x     0      0      4096  6-Sep-2019 11:52 ..
+  415813 -rw-r--r--  1000   1000      8980  6-Sep-2019 11:52 examples.desktop
+  396615 -rw-r--r--  1000   1000      3768  9-Oct-2019 16:36 .bashrc
+  415815 -rw-r--r--  1000   1000       220  6-Sep-2019 11:52 .bash_logout
+  415816 -rw-r--r--  1000   1000       807  6-Sep-2019 11:52 .profile
+  400776 drwx------  1000   1000      4096  6-Sep-2019 12:16 .gnupg
+  400779 drwx------  1000   1000      4096 15-Oct-2019 11:35 .cache
+  400780 drwx------  1000   1000      4096  6-Sep-2019 11:58 .local
+  400788 drwx------  1000   1000      4096 18-Oct-2019 23:58 .config
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 Desktop
+  400844 drwxr-xr-x  1000   1000      4096  6-Sep-2019 11:58 Public
+  400785 -rw-------  1000   1000     18762 18-Oct-2019 23:50 .ICEauthority
+  400842 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:26 Downloads
+  400843 drwxr-xr-x  1000   1000      4096  6-Sep-2019 11:58 Templates
+  400845 drwxr-xr-x  1000   1000      4096  6-Sep-2019 11:58 Documents
+  400846 drwxr-xr-x  1000   1000      4096  6-Sep-2019 11:58 Music
+  400847 drwxr-xr-x  1000   1000      4096 23-Sep-2019 09:56 Pictures
+  400848 drwxr-xr-x  1000   1000      4096  6-Sep-2019 11:58 Videos
+  400951 drwx------  1000   1000      4096  6-Sep-2019 12:01 .mozilla
+  401431 drwxr-xr-x  1000   1000      4096  1-Oct-2019 13:59 snap
+  401439 drwx------  1000   1000      4096  6-Sep-2019 12:13 .thunderbird
+X 415848 drwx------  1000   1000      4096 17-Oct-2019 11:32 .ssh
+  401180 -rw-r--r--  1000   1000         0  6-Sep-2019 12:33 .sudo_as_admin_successful
+  401175 drwx------     0      0      4096  6-Sep-2019 12:37 .dbus
+  401196 drwx------     0      0      4096  6-Sep-2019 12:37 .gvfs
+  540798 drwxrwxr-x  1000   1000      4096 19-Oct-2019 00:17 .rstudio-desktop
+  420585 -rw-------  1000   1000     38250 19-Oct-2019 00:18 .bash_history
+  416120 drwxrwxr-x  1000   1000      4096  6-Sep-2019 13:51 R
+  424272 drwxr-xr-x  1000   1000      4096  6-Sep-2019 15:26 .gem
+  424498 -rw-rw-r--  1000   1000     21859 19-Oct-2019 00:05 .Rhistory
+  661398 drwxr-xr-x  1000   1000      4096 10-Oct-2019 21:14 dash-to-dock
+  444288 -rw-rw-r--  1000   1000      4605 18-Oct-2019 00:11 .RData
+  527532 drwxrwxr-x  1000   1000      4096 20-Sep-2019 15:52 stat133-lab03
+  427870 -rw-r--r--  1000   1000        83  4-Oct-2019 09:49 .gitconfig
+  434800 -rw-------  1000   1000     11354 17-Oct-2019 20:15 .viminfo
+  428143 -rw-r--r--  1000   1000         0  4-Oct-2019 14:21 experience-counts.txt
+  396544 -rw-r--r--  1000   1000      3771  9-Oct-2019 16:22 .bashrc_backup
+  448070 -rw-r--r--  1000   1000     45253 19-Oct-2019 00:18 testdisk.log
+X 394494 -rw-------  1000   1000    262144 18-Oct-2019 23:50 .ICEauthority-l
+
+dir_partition inode=400841
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 .
+  415807 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:07 ..
+  661016 drwxr-xr-x  1000   1000      4096  7-Oct-2019 19:51 Ex_1
+  678716 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:02 workout1
+  941864 drwxr-xr-x  1000   1000      4096  4-Oct-2019 11:31 concepts_of_computing_data
+  466945 drwxrwxr-x  1000   1000      4096 17-Sep-2019 20:50 CS 170
+  532421 -rw-rw-r--  1000   1000    978008 26-Sep-2019 18:03 ggplot2-cheatsheet-2.1.pdf
+  412013 -rw-r--r--  1000   1000       260 27-Sep-2019 09:54 Stat_133_note
+  396493 -rw-------  1000   1000    466732  6-Oct-2019 20:16 midterm-study-guide-solutions.pdf
+  474754 -rw-------  1000   1000    432057  6-Oct-2019 20:16 midterm-study-guide-questions.pdf
+  394787 -rw-------  1000   1000    195554 15-Oct-2019 11:28 workout01.pdf
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 workouts
+  441880 -rw-r--r--  1000   1000       322 17-Oct-2019 14:15 note
+  668587 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:04 temp
+X 435083 -rw-------  1000   1000     13793 17-Oct-2019 00:14 note~
+  396704 -rwxrw-rw-  1000   1000  72026251  7-Oct-2019 19:36 Modern Data Science With R .pdf
+
+dir_partition inode=661892
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 .
+  400841 drwxr-xr-x  1000   1000      4096 18-Oct-2019 22:56 ..
+  668842 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:37 .git
+  680904 -rw-r--r--  1000   1000       293 16-Oct-2019 15:49 README.md
+  801799 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:49 demo
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 workout1
+
+dir_partition inode=936665
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 .
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 ..
+  936666 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:34 data
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 code
+  936682 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  936683 drwxr-xr-x  1000   1000      4096 17-Oct-2019 12:01 output
+  936688 drwxr-xr-x  1000   1000      4096 17-Oct-2019 22:09 images
+  936689 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:15 report
+  936690 drwxr-xr-x  1000   1000      4096 17-Oct-2019 00:12 .git
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 home
+
+dir_partition inode=940447
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1/home
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 ..
+  940448 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 chaoyoung
+Directory /home/chaoyoung/Desktop/workouts/workout1
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 .
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 ..
+  936666 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:34 data
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 code
+  936682 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  936683 drwxr-xr-x  1000   1000      4096 17-Oct-2019 12:01 output
+  936688 drwxr-xr-x  1000   1000      4096 17-Oct-2019 22:09 images
+  936689 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:15 report
+  936690 drwxr-xr-x  1000   1000      4096 17-Oct-2019 00:12 .git
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 home
+
+dir_partition inode=940447
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1/home
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 ..
+  940448 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 chaoyoung
+
+dir_partition inode=940448
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1/home/chaoyoung
+  940448 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 ..
+  940449 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 Desktop
+
+dir_partition inode=940449
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1/home/chaoyoung/Desktop
+  940449 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+  940448 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 ..
+ 1078738 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 workouts
+
+dir_partition inode=1078738
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1/home/chaoyoung/Desktop/workouts
+ 1078738 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+  940449 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 ..
+ 1078739 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 workout1
+
+dir_partition inode=1078739
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1/home/chaoyoung/Desktop/workouts/workout1
+ 1078739 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+ 1078738 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 ..
+ 1078740 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 code
+
+dir_partition inode=1078740
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1/home/chaoyoung/Desktop/workouts/workout1/code
+ 1078740 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+ 1078739 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 ..
+ 1078741 drwxr-xr-x     0      0      4096 18-Oct-2019 23:41 .eda-script.R.swp
+Directory /home/chaoyoung/Desktop/workouts/workout1/home/chaoyoung/Desktop/workouts/workout1
+ 1078739 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+ 1078738 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 ..
+ 1078740 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 code
+Directory /home/chaoyoung/Desktop/workouts/workout1/home/chaoyoung/Desktop/workouts
+ 1078738 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+  940449 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 ..
+ 1078739 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 workout1
+Directory /home/chaoyoung/Desktop/workouts/workout1/home/chaoyoung/Desktop
+  940449 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+  940448 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 ..
+ 1078738 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 workouts
+Directory /home/chaoyoung/Desktop/workouts/workout1/home/chaoyoung
+  940448 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 ..
+  940449 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 Desktop
+Directory /home/chaoyoung/Desktop/workouts/workout1/home
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 .
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 ..
+  940448 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 chaoyoung
+Directory /home/chaoyoung/Desktop/workouts/workout1
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 .
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 ..
+  936666 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:34 data
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 code
+  936682 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  936683 drwxr-xr-x  1000   1000      4096 17-Oct-2019 12:01 output
+  936688 drwxr-xr-x  1000   1000      4096 17-Oct-2019 22:09 images
+  936689 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:15 report
+  936690 drwxr-xr-x  1000   1000      4096 17-Oct-2019 00:12 .git
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 home
+
+dir_partition inode=936678
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1/code
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 .
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 ..
+  936679 -rw-r--r--  1000   1000      1315 19-Oct-2019 00:00 eda-script.R
+  936680 -rw-r--r--  1000   1000     12288 16-Oct-2019 15:51 .make-ibtracs-data-script.txt.swp
+  936561 -rw-r--r--  1000   1000      2578 17-Oct-2019 14:16 make-ibtracs-data-script.txt
+  940450 -rw-r--r--  1000   1000      8192 19-Oct-2019 00:21 testdisk.log
+X 940364 -rw-r--r--     0      0      3487 17-Oct-2019 20:18 .eda-script.R.swx
+Directory /home/chaoyoung/Desktop/workouts/workout1
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 .
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 ..
+  936666 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:34 data
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 code
+  936682 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  936683 drwxr-xr-x  1000   1000      4096 17-Oct-2019 12:01 output
+  936688 drwxr-xr-x  1000   1000      4096 17-Oct-2019 22:09 images
+  936689 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:15 report
+  936690 drwxr-xr-x  1000   1000      4096 17-Oct-2019 00:12 .git
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 home
+
+dir_partition inode=936678
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1/code
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 .
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 ..
+  936679 -rw-r--r--  1000   1000      1315 19-Oct-2019 00:00 eda-script.R
+  936680 -rw-r--r--  1000   1000     12288 16-Oct-2019 15:51 .make-ibtracs-data-script.txt.swp
+  936561 -rw-r--r--  1000   1000      2578 17-Oct-2019 14:16 make-ibtracs-data-script.txt
+  940450 -rw-r--r--  1000   1000      8192 19-Oct-2019 00:21 testdisk.log
+X 940364 -rw-r--r--     0      0      3487 17-Oct-2019 20:18 .eda-script.R.swx
+Directory /home/chaoyoung/Desktop/workouts/workout1
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 .
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 ..
+  936666 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:34 data
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 code
+  936682 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  936683 drwxr-xr-x  1000   1000      4096 17-Oct-2019 12:01 output
+  936688 drwxr-xr-x  1000   1000      4096 17-Oct-2019 22:09 images
+  936689 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:15 report
+  936690 drwxr-xr-x  1000   1000      4096 17-Oct-2019 00:12 .git
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 home
+
+dir_partition inode=936678
+ 1 * Linux                    0  32 33  2610 180  2   41938944
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/chaoyoung/Desktop/workouts/workout1/code
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 .
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 ..
+  936679 -rw-r--r--  1000   1000      1315 19-Oct-2019 00:00 eda-script.R
+  936680 -rw-r--r--  1000   1000     12288 16-Oct-2019 15:51 .make-ibtracs-data-script.txt.swp
+  936561 -rw-r--r--  1000   1000      2578 17-Oct-2019 14:16 make-ibtracs-data-script.txt
+  940450 -rw-r--r--  1000   1000      8192 19-Oct-2019 00:21 testdisk.log
+X 940364 -rw-r--r--     0      0      3487 17-Oct-2019 20:18 .eda-script.R.swx
+Directory /home/chaoyoung/Desktop/workouts/workout1
+  936665 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:12 .
+  661892 drwxr-xr-x  1000   1000      4096 16-Oct-2019 15:51 ..
+  936666 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:34 data
+  936678 drwxr-xr-x  1000   1000      4096 19-Oct-2019 00:21 code
+  936682 -rw-r--r--  1000   1000        35 16-Oct-2019 15:51 README.md
+  936683 drwxr-xr-x  1000   1000      4096 17-Oct-2019 12:01 output
+  936688 drwxr-xr-x  1000   1000      4096 17-Oct-2019 22:09 images
+  936689 drwxr-xr-x  1000   1000      4096 18-Oct-2019 23:15 report
+  936690 drwxr-xr-x  1000   1000      4096 17-Oct-2019 00:12 .git
+  940447 drwxr-xr-x     0      0      4096 19-Oct-2019 00:12 home
+SIGHUP detected! TestDisk has been killed.

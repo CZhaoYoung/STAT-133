@@ -1,0 +1,6 @@
+"name","description","data_type"
+"article_titile","the title of each article","character"
+"author","the names of authors","character"
+"journal","the journal published on","character"
+"citations","the number of citations","integer"
+"year","the year when paper published","integer"

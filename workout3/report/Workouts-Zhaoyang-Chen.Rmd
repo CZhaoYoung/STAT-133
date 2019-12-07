@@ -1,0 +1,174 @@
+---
+title: "Workout3-Zhaoyang Chen"
+author: "Zhaoyang Chen"
+date: "12/6/2019"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#### required packages
+```{r, message=FALSE}
+library(stringr)
+library(tidyverse)
+library(wordcloud)
+library(ggplot2)
+library(dplyr)
+```
+
+#### data preparation
+```{r}
+A.B_citations <-as.data.frame(read.csv(file ='/home/chaoyoung/Desktop/workouts/workout3/data/cleandata/A.B_citations.csv'))
+
+E.D_citations <-as.data.frame(read.csv(file ='/home/chaoyoung/Desktop/workouts/workout3/data/cleandata/E.D_citations.csv'))
+
+```
+
+
+#### Section 1
+a) For the two scholars, how many of their paper titles begin with a word that starts with a vowel, respectively?
+```{r}
+temp1 <- str_match(A.B_citations$article_title,"^[aeiou/AEIOU]")
+temp1 <- na.omit(temp1)
+# number of A.B's papers begin with a Vowel
+ans1 <- length(temp1)
+ans1
+
+temp2 <- str_match(E.D_citations$article_title,"^[aeiou/AEIOU]")
+temp2 <- na.omit(temp2)
+# number of A.B's papers begin with a Vowel
+ans2 <- length(temp2)
+ans2
+# The numbers of this two scholars' paper titles starting with a vowel are exactly the same! amazing!
+```
+
+
+b) For the two scholars, how many of their paper titles end with “s” respectively?
+```{r}
+temp1 <- str_match(A.B_citations$article_title,"[s]$")
+temp1 <- na.omit(temp1)
+# number of A.B's papers end with "s"
+ans1 <- length(temp1)
+ans1
+
+temp2 <- str_match(E.D_citations$article_title,"[s]$")
+temp2 <- na.omit(temp2)
+# number of E.D's papers end with "s"
+ans2 <- length(temp2)
+ans2
+```
+
+
+c) For the two scholars, find the longest title, respectively (“longest” in terms of number of characters).
+```{r}
+# note which.max() will return the index of max number
+temp1 <- str_length(A.B_citations$article_title)
+ans1 <- A.B_citations$article_title[which.max(temp1)]
+# The longest title
+ans1
+
+temp2 <- str_length(E.D_citations$article_title)
+ans2 <- E.D_citations$article_title[which.max(temp2)]
+# The longest title
+ans2
+```
+
+
+d) For the two scholars, calculate the variable “number of punctuation symbols in the
+their titles”. Display summary() statistics of these variables, and the corresponding
+histograms.
+```{r}
+temp1 <- str_count(A.B_citations$article_title, "[[:punct:]]")
+summary(temp1)
+
+number_of_punctuations <- temp1
+hist(number_of_punctuations, main="Frequency of Abhijit Banerjee's paper including punctuations")
+
+temp2 <- str_count(E.D_citations$article_title, "[[:punct:]]")
+summary(temp2)
+
+number_of_punctuations <- temp2
+hist(number_of_punctuations, main="Frequency of Esther Duflo's paper including punctuations")
+```
+
+
+
+e) Remove stop words(“the”, “a”, “an”, “and”, “in”, “if”, “but”), numbers and punctua-
+tions from the titles.
+```{r} 
+# add space " " after each stop words in case that str_remove will remove "if" in some words including "if", such as making "differ" as "dfer".
+
+ans1 <- str_remove_all(A.B_citations$article_title, 
+        "[[:punct:]]|[[:digit:]]|The |the |If |if |A |a |An|an |And |and |In |in |But |but ")
+
+ans2 <- str_remove_all(E.D_citations$article_title, 
+        "[[:punct:]]|[[:digit:]]|The |the |If |if |A |a |An|an |And |and |In |in |But |but ")
+```
+
+
+
+f) Excluding stop words, numbers and punctuations, what are the 10 most frequent words
+in scholar A’s titles and scholar B's titles?
+
+  **In this part, I encountered a problem.** I cannot remove extra "spaces" from the title. I think there is something wrong with the original title in the html file. So I returned the first 11 words, including the meaningless word "space" and I believe my answer is correct. :)
+```{r}
+# 
+# In this part, I will ues the answer from the previous questions!
+# use str_split
+mytext <- str_split(ans1, "[[:space:]]", simplify = FALSE)
+# convert list as vector
+mytext <- unlist(mytext, use.names=FALSE)
+mytable_1 <- sort(table(mytext), decreasing=T)
+# top 10 most frequent words of Abhijit Banerjee's paper 
+mytable_1[1:11]
+
+
+mytext <- str_split(ans2, "[[:space:]]", simplify = FALSE)
+# convert list as vector
+mytext <- unlist(mytext, use.names=FALSE)
+mytable_2 <- sort(table(mytext), decreasing=T)
+# top 10 most frequent words of Esther Duflo's paper
+mytable_2[1:11]
+```
+
+
+#### Section 2 Wordcloud
+Actually I think other meanless words also need to be delete, such as "of", "for", but I still include them in the following wordcloud.
+```{r, message=FALSE}
+A.B_wordcloud_df <- as.data.frame(mytable_1)
+A.B_wordcloud_df <- A.B_wordcloud_df[-c(2), ]
+set.seed(1234)
+png(filename = "/home/chaoyoung/Desktop/workouts/workout3/images/A.B_wordcloud.png")
+wordcloud(words = A.B_wordcloud_df$mytext, freq = A.B_wordcloud_df$Freq, min.freq = 1,
+          max.words=100, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+dev.off()
+
+E.D_wordcloud_df <- as.data.frame(mytable_2)
+E.D_wordcloud_df <- E.D_wordcloud_df[-c(2), ]
+png(filename = "/home/chaoyoung/Desktop/workouts/workout3/images/E.D_wordcloud.png")
+wordcloud(words = E.D_wordcloud_df$mytext, freq = E.D_wordcloud_df$Freq, min.freq = 1,
+          max.words=100, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+dev.off()
+```
+The image of wordcloud of Abhijit Banerjee
+
+![Caption for the picture.](/home/chaoyoung/Desktop/workouts/workout3/images/A.B_wordcloud.png)
+
+The image of wordcloud of Esther Duflo
+
+![Caption for the picture.](/home/chaoyoung/Desktop/workouts/workout3/images/E.D_wordcloud.png)
+
+
+```{r}
+ggplot()
+
+```
+
+
+
+
+
+
